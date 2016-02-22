@@ -22,6 +22,7 @@ System.config({
   },
 
   map: {
+    "angular2": "npm:angular2@2.0.0-beta.7",
     "app": "src/app",
     "scss": "github:mobilexag/plugin-sass@0.2.1",
     "typescript": "npm:typescript@1.8.2",
@@ -68,6 +69,15 @@ System.config({
       "reqwest": "github:ded/reqwest@2.0.5",
       "sass.js": "npm:sass.js@0.9.7",
       "url": "github:jspm/nodelibs-url@0.1.0"
+    },
+    "npm:angular2@2.0.0-beta.7": {
+      "crypto": "github:jspm/nodelibs-crypto@0.1.0",
+      "es6-promise": "npm:es6-promise@3.1.2",
+      "es6-shim": "npm:es6-shim@0.33.13",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "reflect-metadata": "npm:reflect-metadata@0.1.2",
+      "rxjs": "npm:rxjs@5.0.0-beta.2",
+      "zone.js": "npm:zone.js@0.5.15"
     },
     "npm:asn1.js@4.5.0": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
@@ -206,6 +216,12 @@ System.config({
       "inherits": "npm:inherits@2.0.1",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
+    "npm:es6-promise@3.1.2": {
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:es6-shim@0.33.13": {
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
     "npm:evp_bytestokey@1.0.0": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "create-hash": "npm:create-hash@1.1.2",
@@ -275,7 +291,15 @@ System.config({
       "stream-browserify": "npm:stream-browserify@1.0.0",
       "string_decoder": "npm:string_decoder@0.10.31"
     },
+    "npm:reflect-metadata@0.1.2": {
+      "assert": "github:jspm/nodelibs-assert@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
     "npm:ripemd160@1.0.1": {
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:rxjs@5.0.0-beta.2": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
@@ -312,6 +336,10 @@ System.config({
     },
     "npm:vm-browserify@0.0.4": {
       "indexof": "npm:indexof@0.0.1"
+    },
+    "npm:zone.js@0.5.15": {
+      "es6-promise": "npm:es6-promise@3.1.2",
+      "process": "github:jspm/nodelibs-process@0.1.2"
     }
   }
 });

@@ -14,6 +14,9 @@
     "typings": "^0.6.8"
   },
   "jspm": {
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.7"
+    },
     "devDependencies": {
       "scss": "github:mobilexag/plugin-sass@^0.2.1",
       "typescript": "npm:typescript@^1.6.2"
