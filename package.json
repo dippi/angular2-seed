@@ -5,11 +5,13 @@
   "author": "ProntoProIT",
   "main": false,
   "scripts": {
-    "postinstall": "jspm install",
-    "jspm": "jspm"
+    "postinstall": "jspm install && typings install",
+    "jspm": "jspm",
+    "typings": "typings"
   },
   "devDependencies": {
-    "jspm": "^0.16.29"
+    "jspm": "^0.16.29",
+    "typings": "^0.6.8"
   },
   "jspm": {
     "devDependencies": {
