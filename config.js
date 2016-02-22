@@ -26,6 +26,7 @@ System.config({
     "app": "src/app",
     "scss": "github:mobilexag/plugin-sass@0.2.1",
     "typescript": "npm:typescript@1.8.2",
+    "immutable": "npm:immutable@3.7.6",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
