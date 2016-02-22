@@ -1,0 +1,19 @@
+{
+  "name": "angular2-seed",
+  "version": "0.0.1",
+  "private": false,
+  "author": "ProntoProIT",
+  "main": false,
+  "scripts": {
+    "postinstall": "jspm install",
+    "jspm": "jspm"
+  },
+  "devDependencies": {
+    "jspm": "^0.16.29"
+  },
+  "jspm": {
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
+}
