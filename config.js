@@ -24,9 +24,10 @@ System.config({
   map: {
     "angular2": "npm:angular2@2.0.0-beta.7",
     "app": "src/app",
+    "immutable": "npm:immutable@3.7.6",
+    "redux": "npm:redux@3.3.1",
     "scss": "github:mobilexag/plugin-sass@0.2.1",
     "typescript": "npm:typescript@1.8.2",
-    "immutable": "npm:immutable@3.7.6",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -237,6 +238,16 @@ System.config({
     "npm:lodash@3.10.1": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
+    "npm:lodash@4.5.1": {
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:loose-envify@1.1.0": {
+      "js-tokens": "npm:js-tokens@1.0.2",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "stream": "github:jspm/nodelibs-stream@0.1.0",
+      "util": "github:jspm/nodelibs-util@0.1.0"
+    },
     "npm:miller-rabin@4.0.0": {
       "bn.js": "npm:bn.js@4.10.3",
       "brorand": "npm:brorand@1.0.5"
@@ -291,6 +302,12 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2",
       "stream-browserify": "npm:stream-browserify@1.0.0",
       "string_decoder": "npm:string_decoder@0.10.31"
+    },
+    "npm:redux@3.3.1": {
+      "lodash": "npm:lodash@4.5.1",
+      "lodash-es": "npm:lodash-es@4.5.1",
+      "loose-envify": "npm:loose-envify@1.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:reflect-metadata@0.1.2": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
