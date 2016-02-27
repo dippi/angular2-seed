@@ -17,9 +17,11 @@
     "dependencies": {
       "angular2": "npm:angular2@^2.0.0-beta.7",
       "immutable": "npm:immutable@^3.7.6",
-      "redux": "npm:redux@^3.3.1"
+      "redux": "npm:redux@^3.3.1",
+      "text": "github:systemjs/plugin-text@^0.0.5"
     },
     "devDependencies": {
+      "node-refills": "npm:node-refills@^1.0.1",
       "scss": "github:mobilexag/plugin-sass@^0.2.1",
       "typescript": "npm:typescript@^1.6.2"
     }

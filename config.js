@@ -9,6 +9,9 @@ System.config({
     "npm:*": "jspm_packages/npm/*",
     "github:*": "jspm_packages/github/*"
   },
+  asd: {
+    "qwe": 42
+  },
 
   packages: {
     "src/app": {
@@ -16,6 +19,21 @@ System.config({
       "meta": {
         "*.scss": {
           "loader": "scss"
+        },
+        "*.html": {
+          "loader": "text"
+        }
+      }
+    },
+    "src/modal": {
+      "defaultExtension": "ts",
+      "meta": {
+        "*.scss": {
+          "loader": "scss",
+          "inject": false
+        },
+        "*.html": {
+          "loader": "text"
         }
       }
     }
@@ -25,8 +43,14 @@ System.config({
     "angular2": "npm:angular2@2.0.0-beta.7",
     "app": "src/app",
     "immutable": "npm:immutable@3.7.6",
+    "modal": "src/modal",
+    "node-refills": "npm:node-refills@1.0.1",
     "redux": "npm:redux@3.3.1",
+    "bourbon": "npm:bourbon@4.2.3/app/assets/stylesheets",
+    "neat": "npm:bourbon-neat@1.7.2/app/assets/stylesheets",
+    "refills": "npm:node-refills@1.0.1",
     "scss": "github:mobilexag/plugin-sass@0.2.1",
+    "text": "github:systemjs/plugin-text@0.0.5",
     "typescript": "npm:typescript@1.8.2",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -251,6 +275,19 @@ System.config({
     "npm:miller-rabin@4.0.0": {
       "bn.js": "npm:bn.js@4.10.3",
       "brorand": "npm:brorand@1.0.5"
+    },
+    "npm:node-bourbon@4.2.3": {
+      "bourbon": "npm:bourbon@4.2.3",
+      "path": "github:jspm/nodelibs-path@0.1.0"
+    },
+    "npm:node-neat@1.7.2": {
+      "bourbon-neat": "npm:bourbon-neat@1.7.2",
+      "node-bourbon": "npm:node-bourbon@4.2.3",
+      "path": "github:jspm/nodelibs-path@0.1.0"
+    },
+    "npm:node-refills@1.0.1": {
+      "node-neat": "npm:node-neat@1.7.2",
+      "path": "github:jspm/nodelibs-path@0.1.0"
     },
     "npm:parse-asn1@5.0.0": {
       "asn1.js": "npm:asn1.js@4.5.0",
