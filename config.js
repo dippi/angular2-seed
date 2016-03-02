@@ -9,11 +9,11 @@ System.config({
     "npm:*": "jspm_packages/npm/*",
     "github:*": "jspm_packages/github/*"
   },
-  asd: {
-    "qwe": 42
-  },
 
   packages: {
+    "src": {
+      "defaultExtension": "ts"
+    },
     "src/app": {
       "defaultExtension": "ts",
       "meta": {
@@ -42,15 +42,15 @@ System.config({
   map: {
     "angular2": "npm:angular2@2.0.0-beta.7",
     "app": "src/app",
+    "bourbon": "npm:bourbon@4.2.3/app/assets/stylesheets",
     "immutable": "npm:immutable@3.7.6",
     "modal": "src/modal",
+    "neat": "npm:bourbon-neat@1.7.2/app/assets/stylesheets",
     "node-refills": "npm:node-refills@1.0.1",
     "redux": "npm:redux@3.3.1",
-    "bourbon": "npm:bourbon@4.2.3/app/assets/stylesheets",
-    "neat": "npm:bourbon-neat@1.7.2/app/assets/stylesheets",
     "refills": "npm:node-refills@1.0.1",
     "scss": "github:mobilexag/plugin-sass@0.2.1",
-    "text": "github:systemjs/plugin-text@0.0.5",
+    "text": "github:systemjs/plugin-text@0.0.7",
     "typescript": "npm:typescript@1.8.2",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
