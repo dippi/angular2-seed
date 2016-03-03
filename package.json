@@ -9,20 +9,24 @@
     "jspm": "jspm",
     "typings": "typings"
   },
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  },
   "devDependencies": {
     "jspm": "^0.16.29",
-    "typings": "^0.6.8"
+    "typings": "^0.6.8",
+    "angular2": "^2.0.0-beta.7"
   },
   "jspm": {
     "dependencies": {
       "angular2": "npm:angular2@^2.0.0-beta.7",
       "immutable": "npm:immutable@^3.7.6",
+      "ng2-bootstrap": "npm:ng2-bootstrap@^1.0.5",
       "redux": "npm:redux@^3.3.1",
+      "scss": "github:ProntoProIT/plugin-sass@master",
       "text": "github:systemjs/plugin-text@^0.0.7"
     },
     "devDependencies": {
-      "node-refills": "npm:node-refills@^1.0.1",
-      "scss": "github:mobilexag/plugin-sass@^0.2.1",
       "typescript": "npm:typescript@^1.6.2"
     }
   }

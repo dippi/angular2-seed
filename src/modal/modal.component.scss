@@ -1,8 +1,0 @@
-@import 'jspm:bourbon/bourbon';
-@import 'jspm:neat/neat';
-
-section {
-  @include outer-container;
-  aside { @include span-columns(3); }
-  article { @include span-columns(9); }
-}
